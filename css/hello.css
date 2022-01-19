@@ -1,0 +1,125 @@
+/*Hex Codes:
+Blue: #63b3ed
+Grey header text: #8594ad
+Orange: #dd6b20
+Grey column text: #68778d
+Grey background: #edf2f7
+Header is 960px wide and has 40px of spacing underneath it.
+The three columns are each 300px wide with 30px of space between them.
+The button has a hover state that gives it a white background, grey text, and an orange border.
+Text is Arial.
+The title is 125px.
+The header text and the column titles are 32px.
+The column text is 18px.
+The footer text is 16px.
+*/
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+}
+header,
+.card-deck,
+footer {
+  width: 960px;
+  margin: 40px auto;
+}
+
+header,
+footer {
+  background-color: #fff;
+  padding: 20px;
+  width: 920px;
+}
+
+header {
+  text-align: center;
+}
+
+h1, 
+span {
+  color: #63b3ed;
+}
+
+h1{
+  font-size: 125px;
+}
+
+h2 {
+  color: #68778d;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+h1,
+h2 {
+  margin: 0;
+}
+.card-deck h2 {
+  padding-top: 16px;
+}
+.card-deck, h2,
+ul {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: #68778d;
+  font-size: 18px;
+  padding: 16px 0;
+}
+
+.hire-btm {
+  padding: 12px;
+  font-size: 24px;
+  font-weight: bol;
+}
+
+.hire-btm:link, .hire-btm:visited {
+  background-color: #fff;
+  color: #68778d;
+  border: solid 2px #dd6b20;
+}
+.hire-btm:hover, .hire-btm:active {
+  background-color: #dd6b20;
+  color: #fff;
+}
+
+.card-deck ul li:last-child {
+  padding-bottom: 32px;
+}
+section {
+  background-color: #fff;
+}
+.card-deck section {
+  width: 300px;
+}
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  margin: 40px auto;
+}
+
+footer p {
+  font-style: italic;
+  color: #68778d;
+}
+
+/*   ---   Navigational Behaviours   ---   */
+
+a {
+  text-decoration: none;
+}
+/* unvisited link & Visited links */
+a:link, a:visited {
+  color: #68778d;
+}
+
+/* mouse over link & selected links */
+a:hover, a:active{
+  color: #000000;
+}
